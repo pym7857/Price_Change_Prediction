@@ -4,10 +4,11 @@
 LSTM 딥러닝을 이용한 미래 가격예측
 
 ## 설계도
-![bluePrint](./Flask Web Server/static/img/bluePring.png) 
+![bluePrint](./Flask Web Server/static/img/bluePrint.png) 
 
 ## Web Site
-http://18.221.85.158:5000/
+http://18.221.85.158:5000/ 
+<br>
 ![pic1](./Flask Web Server/static/img/pic1.JPG) 
 
 ## 텐서플로우 소개 
