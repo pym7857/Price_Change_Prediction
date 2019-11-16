@@ -1,7 +1,5 @@
 # 주제
-텐서플로우를 이용한 다변인 선형회귀를 이용한 가격예측 && 
-<br>
-LSTM 딥러닝을 이용한 미래 가격예측
+텐서플로우 다변인 선형회귀 && Keras LSTM을 이용한 미래 가격예측
 
 ## 설계도
 ![bluePrint](./SampleImages/bluePrint.png) 
