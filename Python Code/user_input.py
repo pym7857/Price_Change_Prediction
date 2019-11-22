@@ -17,6 +17,7 @@ avg_temp = float(input('평균 온도: '))
 min_temp = float(input('최저 온도: '))
 max_temp = float(input('최고 온도: '))
 rain_fall = float(input('강수량: '))
+user_date = input('날짜:')
 
 with tf.Session() as sess:
     sess.run(model)

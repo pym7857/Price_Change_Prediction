@@ -38,6 +38,7 @@
     li {float:left; list-style:none; margin:1px;}
 
   </style>
+
 </head>
 
 <body>
@@ -255,19 +256,18 @@
           <div class="col-md-6 mb-4">
             <!-- Main heading -->
             <h3 class="h3 mb-3" style="font-family: 'Nanum Barun Gothic'">LSTM</h3>
-            <p style="font-family: 'Nanum Barun Gothic'">
-              총 7468개의 20개년 데이터를 이용하여, LSTM으로 학습시킨 결과, <br>
-              2019-10-31 이후의 약 한달간의 미래가격 예측 변동 그래프
-            </p>
             <!-- Main heading -->
 
-            <hr>
-
             <p style="font-family: 'Nanum Barun Gothic'">
-              평균온도, 최저온도, 최고온도, 강수량, 운량, 습도, 일조시간 등을  <br>
-              변인으로 이용했고, tanh Function을 사용하여 정확도를 높였습니다.
+              총 7468개의 20개년 데이터를 이용하여, LSTM으로 학습시킨 결과, 2019-10-31 이후의 약 한달간의 미래가격 예측 변동 그래프.
+              <br>
+              평균온도, 최저온도, 최고온도, 강수량, 운량, 습도, 일조시간 등을 변인으로 이용했고, 
+              <b>
+                <span style="color: blue">tanh function</span>
+              </b>을 사용하여 정확도를 높였습니다.
             </p>
 
+            <hr>
             <!-- CTA -->
             <a target="_blank" href="https://github.com/pym7857/Price_Change_Prediction"
               style="font-family: 'Nanum Barun Gothic'" class="btn btn-grey btn-md">전체 소스코드 다운로드
@@ -281,9 +281,10 @@
           <div class="col-md-6 mb-4">
             <h3 class="h3 mb-3" style="font-family: 'Nanum Barun Gothic'">예측 그래프</h3>
             <img style="width:600px; height:300px" src="{{url_for('static', filename='img/graph.png')}}" class="img-fluid z-depth-1-half" alt="">
-            <hr>
           </div>
           <!--Grid column-->
+
+
 
         </div>
         <!--Grid row-->
@@ -318,26 +319,34 @@
 
             <form action="/" method="post">
               <!-- Default form group -->
-
                   <!-- Default input -->
                   <div class="form-group">
-                      <label style="font-family: 'Nanum Barun Gothic'" for="formGroupExampleInput">평균 온도</label>
-                      <input style="font-family: 'Nanum Barun Gothic'" type="text" name="avg_temp" class="form-control" id="formGroupExampleInput" placeholder="평균 온도를 입력하세요.">
+                    <label style="font-family: 'Nanum Barun Gothic'" for="formGroupExampleInput">날짜 입력</label>
+                    <input style="font-family: 'Nanum Barun Gothic'" type="date" name="user_date" class="form-control" id="formGroupExampleInput">
                   </div>
                   <!-- Default input -->
                   <div class="form-group">
-                      <label style="font-family: 'Nanum Barun Gothic'" for="formGroupExampleInput">최소 온도</label>
-                      <input style="font-family: 'Nanum Barun Gothic'" type="text" name="min_temp" class="form-control" id="formGroupExampleInput" placeholder="최소 온도를 입력하세요.">
+                    <label style="font-family: 'Nanum Barun Gothic'" for="formGroupExampleInput">평균 온도</label>
+                    <input style="font-family: 'Nanum Barun Gothic'" type="text" name="avg_temp" class="form-control" id="formGroupExampleInput" placeholder="평균 온도를 입력하세요.">
                   </div>
                   <!-- Default input -->
                   <div class="form-group">
-                      <label style="font-family: 'Nanum Barun Gothic'" for="formGroupExampleInput">최대 온도</label>
-                      <input style="font-family: 'Nanum Barun Gothic'" type="text" name="max_temp" class="form-control" id="formGroupExampleInput" placeholder="최대 온도를 입력하세요.">
+                    <label style="font-family: 'Nanum Barun Gothic'" for="formGroupExampleInput">최소 온도</label>
+                    <input style="font-family: 'Nanum Barun Gothic'" type="text" name="min_temp" class="form-control" id="formGroupExampleInput" placeholder="최소 온도를 입력하세요.">
                   </div>
                   <!-- Default input -->
                   <div class="form-group">
-                      <label style="font-family: 'Nanum Barun Gothic'" for="formGroupExampleInput">강수량</label>
-                      <input style="font-family: 'Nanum Barun Gothic'" type="text" name="rain_fall" class="form-control" id="formGroupExampleInput" placeholder="강수량을 입력하세요.">
+                    <label style="font-family: 'Nanum Barun Gothic'" for="formGroupExampleInput">최대 온도</label>
+                    <input style="font-family: 'Nanum Barun Gothic'" type="text" name="max_temp" class="form-control" id="formGroupExampleInput" placeholder="최대 온도를 입력하세요.">
+                  </div>
+                  <!-- Default input -->
+                  <div class="form-group">
+                    <label style="font-family: 'Nanum Barun Gothic'" for="formGroupExampleInput">강수량</label>
+                    <input style="font-family: 'Nanum Barun Gothic'" type="text" name="rain_fall" class="form-control" id="formGroupExampleInput" placeholder="강수량을 입력하세요.">
+                  </div>
+                  <div class="form-group">
+                    <label style="font-family: 'Nanum Barun Gothic'" for="formGroupExampleInput">습도</label>
+                    <input style="font-family: 'Nanum Barun Gothic'" type="text" name="moist" class="form-control" id="formGroupExampleInput" placeholder="강수량을 입력하세요.">
                   </div>
               <!-- Default form group -->
               <button style="font-family: 'Nanum Barun Gothic' !important;" type="submit" class="btn btn-primary btn-md pull-right">예측하기</button>
@@ -350,13 +359,33 @@
           <!--Grid column-->
           <div class="col-lg-6 col-md-12">
 
-            <p class="h5 text-center mb-4" style="font-family: 'Nanum Barun Gothic'">예측 결과</p>
+            <p class="h5 text-center mb-4" style="font-family: 'Nanum Barun Gothic'">
+              <b>
+                <span style="color: blue">LSTM</span>
+              </b> 예측 결과
+            </p>
+              {% if res %}
+                <h5 class="text-center mt-3">예측된 가격은 {{ res }}원 입니다.</h5>
+              {% endif %}
+            
+            <hr>
+            
+            <p class="h5 text-center mb-4" style="font-family: 'Nanum Barun Gothic'">
+              <b>
+                <span style="color: blue">선형회귀</span>
+              </b> 예측 결과
+            </p>
             {% if price %}
-              <h5 class="text-center mt-3">예측된 가격은 {{ price }}원입니다.</h5>
+              <h5 class="text-center mt-3">예측된 가격은 {{ price }}원 입니다.</h5>
             {% endif %}
+
+            <hr>
+
+            
           </div>
           <!--/Grid column-->
 
+        
         </div>
         <!--/Grid row-->
 
@@ -372,7 +401,7 @@
 
     <!--Call to action-->
     <div class="pt-4">
-      <a class="btn btn-outline-white" href="https://github.com/pym7857/DataScience/blob/master/%EC%98%81%ED%99%94%20%EC%B6%94%EC%B2%9C%20%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%EB%A7%8C%EB%93%A4%EA%B8%B0%20-%20Python.ipynb" target="_blank" role="button">LET'S GO GITHUB
+      <a class="btn btn-outline-white" href="https://github.com/pym7857/Price_Change_Prediction" target="_blank" role="button">LET'S GO GITHUB
         <i class="fa fa-graduation-cap ml-2"></i>
       </a>
     </div>
