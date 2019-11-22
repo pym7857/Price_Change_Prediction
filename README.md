@@ -8,6 +8,7 @@
 http://18.221.85.158:5000/ 
 <br>
 ![pic1](./SampleImages/pic1.JPG) 
+![pic2](./SampleImages/result.PNG) 
 
 ## 텐서플로우 소개 
 ```
