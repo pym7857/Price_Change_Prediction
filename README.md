@@ -3,7 +3,7 @@
 
 ## Team member
 
-> Or Contributors/People
+> Contributors/People
 
 | YoungMin Park | Juyeol Yu | Myeongjae Lee |
 | :---: | :---: | :---: |
