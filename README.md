@@ -8,8 +8,7 @@
 | YoungMin Park | Juyeol Yu | Myeongjae Lee |
 | :---: | :---: | :---: |
 | <img src="https://avatars2.githubusercontent.com/u/44596598?s=460&v=4" width="50%"></img> | <img src="https://avatars2.githubusercontent.com/u/49298852?s=460&v=4" width="50%"></img>  | <img src="https://avatars1.githubusercontent.com/u/55834900?s=460&v=4" width="50%"></img>  |
-| ![github.com/pym7857](https://github.com/pym7857 "https://github.com/pym7857") | ![github.com/yudazzi](https://github.com/yudazzi
- "https://github.com/yudazzi") |![github.com/DdingJae](https://github.com/DdingJae "https://github.com/DdingJae") |   
+| https://github.com/pym7857) | https://github.com/yudazzi | https://github.com/DdingJae |   
 
 - You can see team member and github profile
 - You should probably find team member's lastest project
