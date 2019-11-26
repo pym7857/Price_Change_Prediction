@@ -1,5 +1,18 @@
-# 주제
+# Title
 다변인 선형회귀, LSTM을 이용한 미래 가격예측
+
+## Team member
+
+> Or Contributors/People
+
+| YoungMin Park | Juyeol Yu | Myeongjae Lee |
+| :---: | :---: | :---: |
+| <img src="https://avatars2.githubusercontent.com/u/44596598?s=460&v=4" width="50%"></img> | <img src="https://avatars2.githubusercontent.com/u/49298852?s=460&v=4" width="50%"></img>  | <img src="https://avatars1.githubusercontent.com/u/55834900?s=460&v=4" width="50%"></img>  |
+| ![github.com/pym7857](https://github.com/pym7857 "https://github.com/pym7857") | ![github.com/yudazzi](https://github.com/yudazzi
+ "https://github.com/yudazzi") |![github.com/DdingJae](https://github.com/DdingJae "https://github.com/DdingJae") |   
+
+- You can see team member and github profile
+- You should probably find team member's lastest project
 
 ## 설계도
 ![bluePrint](./SampleImages/bluePrint.png) 
@@ -11,24 +24,6 @@ http://18.221.85.158:5000/
 
 ## Web Site (예측 결과)
 ![pic2](./SampleImages/result.JPG) 
-
-## 텐서플로우 소개 
-```
-설명 
-```
-
-## LSTM 소개
-```
-설명
-
-+ 총 7486 개의 엑셀 데이터
-+ 그래프 추가 
-```
-
-## 피어슨 상관계수
-```
-피어슨 상관계수를 이용하여 연관이 높은 변인만을 추출하여 사용합니다.
-```
 
 ## 서버 실행
 ```
@@ -45,7 +40,7 @@ cd "Flask Web Server"
 python server.py
 ```
 
-## 텐서플로우 데이터 학습 모델 생성
+## Tensorflow 데이터 학습 모델 생성
 ```
 # 프로젝트 폴더에서 파이썬 폴더로 이동합니다.
 cd "Python Code"
@@ -72,9 +67,6 @@ python "user_input.py"
 # Flask의 폴더는 model / static / templates로 나누어 구성 
 # index.html에서 데이터 입력부분은 form 태그로 POST 방식으로 데이터 전송
 # server.py: 플라스크(Flask)를 이용해 웹서버 연동 (port:5000)
-
-(LSTM)
-설명
 ```
 
 ## AWS EC2를 이용해 hosting
@@ -85,6 +77,3 @@ python "user_input.py"
 # 4. 서버 배포를 위해 인스턴스 보안설정에 인바운드 규칙에 포트번호 5000번을 추가
 # 5. 인스턴스에서 제공하는 public IP/DNS를 통해 접속 가능 
 ```
-
-<br>
-<br>
