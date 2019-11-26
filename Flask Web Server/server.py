@@ -35,7 +35,7 @@ def index():
         user_date = str(request.form['user_date']) # 날짜
 
     # ---------------- LSTM 예측가격 처리부분 ----------------
-    data = read_csv('test.csv', sep=',')  # 토큰 = ','
+    data = read_csv('../Python Code/LSTM/pred_price.csv', sep=',')  # 토큰 = ','
     xy = np.array(data)  # xy 변수에 2차원 배열 행렬 형태로 해당 데이터를 담는다.
     x_data = xy[:, 0]  # 첫번째 열 (날짜 배열)
     y_data = xy[:, 1]  # 두번째 열 (가격 배열)
@@ -45,7 +45,7 @@ def index():
         if user_date == x_data[i]:
             index = i
             break
-    print(index)
+    #print(index)
     if index == -1:
         res = 'None'
     else:

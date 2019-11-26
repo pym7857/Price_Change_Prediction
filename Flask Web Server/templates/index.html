@@ -280,7 +280,7 @@
           <!--Grid column-->
           <div class="col-md-6 mb-4">
             <h3 class="h3 mb-3" style="font-family: 'Nanum Barun Gothic'">예측 그래프</h3>
-            <img style="width:600px; height:300px" src="{{url_for('static', filename='img/graph.png')}}" class="img-fluid z-depth-1-half" alt="">
+            <img style="width:600px; height:300px" src="{{url_for('static', filename='img/graph.PNG')}}" class="img-fluid z-depth-1-half" alt="">
           </div>
           <!--Grid column-->
 
@@ -322,6 +322,7 @@
                   <!-- Default input -->
                   <div class="form-group">
                     <label style="font-family: 'Nanum Barun Gothic'" for="formGroupExampleInput">날짜 입력</label>
+                    <label style="color:red; font-family: 'Nanum Barun Gothic'" for="formGroupExampleInput">2017-9-21 ~ 2019-10-15</label>
                     <input style="font-family: 'Nanum Barun Gothic'" type="date" name="user_date" class="form-control" id="formGroupExampleInput">
                   </div>
                   <!-- Default input -->
@@ -365,7 +366,7 @@
               </b> 예측 결과
             </p>
               {% if res %}
-                <h5 class="text-center mt-3">예측된 가격은 {{ res }}원 입니다.</h5>
+                <h5 class="text-center mt-3">예측된 가격은 [{{ res }}]원 입니다.</h5>
               {% endif %}
             
             <hr>
