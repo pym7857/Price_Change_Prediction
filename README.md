@@ -8,10 +8,10 @@
 | YoungMin Park | Juyeol Yu | Myeongjae Lee |
 | :---: | :---: | :---: |
 | <img src="https://avatars2.githubusercontent.com/u/44596598?s=460&v=4" width="50%"></img> | <img src="https://avatars2.githubusercontent.com/u/49298852?s=460&v=4" width="50%"></img>  | <img src="https://avatars1.githubusercontent.com/u/55834900?s=460&v=4" width="50%"></img>  |
-| https://github.com/pym7857 | https://github.com/yudazzi | https://github.com/DdingJae |   
+| ***https://github.com/pym7857*** | ***https://github.com/yudazzi*** | ***https://github.com/DdingJae*** |   
 
-- You can see team member and github profile
-- You should probably find team member's lastest project
+- ***You can see team member and github profile***
+- ***You should probably find team member's lastest project***
 
 ## ***1. Development Environment***
 * ***OS : Windows 10***
