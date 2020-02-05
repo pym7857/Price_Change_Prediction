@@ -64,6 +64,15 @@ python "user_input.py"
 ```
 
 ## ***7. Data Crawling & Pearson correlation coefficient***
+![crawl_code](./SampleImages/crawl_code.png)
+First, make web crawl code about dates of selling carrot data and prices data of more than 20years (https://www.kamis.or.kr/customer/main/main.do)
+Because in the kamis web site, we can't download more than 100data at one time. 
+
+After get about 7000 data with crawling, we apply Pearson correlation coefficient in order to know what variable do more affect price.
+Below picture represents our Pearson correlation coefficient applying.
+![pearson](./SampleImages/pearson.jpg)
+![pearson_table](./SampleImages/pearson_table.png)
+After finishing that work, we sholud got crawling data on National Weather Service. There, we got the weather data which only we want.
 
 
 ## ***8. AWS EC2 hosting***
