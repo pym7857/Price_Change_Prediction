@@ -77,8 +77,10 @@ Below picture represents our Pearson correlation coefficient applying.
 <br><br>
 After finishing that work, we sholud got crawling data on National Weather Service. There, we got the weather data which only we want. Finally, We could get learning_data approximately data of 7000.
 
+## ***8. Multi-variable Linear Regression & Flask Server***
 
-## ***8. AWS EC2 hosting***
+
+## ***9. AWS EC2 hosting***
 ```
 # 1. EC2 인스턴스 생성, 키 획득
 # 2. 제공받은 키를 이용하여 SSH 명령어를 사용해 접속
@@ -87,7 +89,7 @@ After finishing that work, we sholud got crawling data on National Weather Servi
 # 5. 인스턴스에서 제공하는 public IP/DNS를 통해 접속 가능 
 ```
 
-## ***9. Develop Note***
+## ***10. Develop Note***
 ```
 # offline_save.py: 다변인 선형회귀 모델 개발 & 데이터 저장 (model 폴더에 저장)
 # user_input.py: 데이터 불러오기 & 사용자 입력
