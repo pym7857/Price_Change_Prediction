@@ -73,22 +73,22 @@ After get about 7000 data with crawling, we apply Pearson correlation coefficien
 Below picture represents our Pearson correlation coefficient applying.
 <br><br>
 ![pearson](./SampleImages/pearson.jpg)
-![pearson_table](./SampleImages/pearson_table.png)
+![pearson_table](./SampleImages/pearson_table.PNG)
 <br><br>
 After finishing that work, we sholud got crawling data on National Weather Service. There, we got the weather data which only we want. Finally, We could get learning_data approximately data of about 7000.
 <br><br>
-![7610_data](./SampleImages/7610_data.png)
+![7610_data](./SampleImages/7610_data.PNG)
 
 ## ***8. Multi-variable Linear Regression & Flask Server***
 First, we made offline_code in order to save time when running predict_model. If we save learned model in local, we can get predict_result faster later time.
 <br><br>
-![offline_code](./SampleImages/offline_code.png)
+![offline_code](./SampleImages/offline_code.PNG)
 <br><br>
 Second, at Server.py, we could run saved_model. 
 <br><br>
-![open_saved](./SampleImages/open_saved.png)
+![open_saved](./SampleImages/open_saved.PNG)
 <br><br>
-![tensorflow_pred](./SampleImages/tensorflow_pred.png)
+![tensorflow_pred](./SampleImages/tensorflow_pred.PNG)
 
 ## ***9. AWS EC2 hosting***
 ```
