@@ -73,7 +73,7 @@ After get about 7000 data with crawling, we apply Pearson correlation coefficien
 Below picture represents our Pearson correlation coefficient applying.
 <br><br>
 ![pearson](./SampleImages/pearson.jpg)
-![pearson_table](./SampleImages/pearson_table.PNG)
+![pearson_table](./SampleImages/pearson_table.png)
 <br><br>
 After finishing that work, we sholud got crawling data on National Weather Service. There, we got the weather data which only we want. Finally, We could get learning_data approximately data of about 7000.
 <br><br>
