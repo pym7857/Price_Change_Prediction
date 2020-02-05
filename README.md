@@ -21,15 +21,15 @@
 ## ***2. Structure drawing***
 ![bluePrint](./SampleImages/bluePrint.png) 
 
-## ***3. Demo Web Site***
-http://18.221.85.158:5000/ 
+## ***3. Demo Web***
+***http://18.221.85.158:5000/***
 <br>
 ![pic1](./SampleImages/pic1.JPG) 
 
-## ***4. Price prediction result***
+## ***4. Prediction result***
 ![pic2](./SampleImages/result.JPG) 
 
-## ***5. Run Server***
+## ***5. Run Server(Flask Web Server)***
 ```
 # 깃 허브에서 소스코드를 다운로드 받습니다.
 https://github.com/pym7857/pricePrediction.git
