@@ -1,7 +1,7 @@
-# Title
-다변인 선형회귀, LSTM을 이용한 미래 가격예측
+# ***Price_Change_Prediction:chart_with_upwards_trend:***
+***This project is to develop predict carrot price software for use in linear regression.***
 
-## Team member
+## ***0.Team member***
 
 > Contributors/People
 
@@ -13,18 +13,23 @@
 - You can see team member and github profile
 - You should probably find team member's lastest project
 
-## 설계도
+## ***1.Development Environment***
+* ***OS : Windows 10***
+* ***IDE : Pycharm***
+* ***Language : Python 3.6***
+
+## ***2.Structure drawing***
 ![bluePrint](./SampleImages/bluePrint.png) 
 
-## Web Site
+## ***3.Demo Web Site***
 http://18.221.85.158:5000/ 
 <br>
 ![pic1](./SampleImages/pic1.JPG) 
 
-## Web Site (예측 결과)
+## ***4.Price prediction result***
 ![pic2](./SampleImages/result.JPG) 
 
-## 서버 실행
+## ***5.Run Server***
 ```
 # 깃 허브에서 소스코드를 다운로드 받습니다.
 https://github.com/pym7857/pricePrediction.git
@@ -39,7 +44,7 @@ cd "Flask Web Server"
 python server.py
 ```
 
-## Tensorflow 데이터 학습 모델 생성
+## ***6.Make tensorflow learing data model***
 ```
 # 프로젝트 폴더에서 파이썬 폴더로 이동합니다.
 cd "Python Code"
@@ -58,17 +63,10 @@ python "user_input.py"
 # 이후에 생성된 모델 파일을 웹 서버의 model 폴더에 붙여넣기 하면 적용됩니다.
 ```
 
-## 핵심사항
-```
-(텐서플로우)
-# offline_save.py: 다변인 선형회귀 모델 개발 & 데이터 저장 (model 폴더에 저장)
-# user_input.py: 데이터 불러오기 & 사용자 입력
-# Flask의 폴더는 model / static / templates로 나누어 구성 
-# index.html에서 데이터 입력부분은 form 태그로 POST 방식으로 데이터 전송
-# server.py: 플라스크(Flask)를 이용해 웹서버 연동 (port:5000)
-```
+## ***7.Crawling & Pearson correlation coefficient***
 
-## AWS EC2를 이용해 hosting
+
+## ***8.AWS EC2 hosting***
 ```
 # 1. EC2 인스턴스 생성, 키 획득
 # 2. 제공받은 키를 이용하여 SSH 명령어를 사용해 접속
@@ -76,3 +74,14 @@ python "user_input.py"
 # 4. 서버 배포를 위해 인스턴스 보안설정에 인바운드 규칙에 포트번호 5000번을 추가
 # 5. 인스턴스에서 제공하는 public IP/DNS를 통해 접속 가능 
 ```
+
+## ***9.Develop Note***
+```
+# offline_save.py: 다변인 선형회귀 모델 개발 & 데이터 저장 (model 폴더에 저장)
+# user_input.py: 데이터 불러오기 & 사용자 입력
+# Flask의 폴더는 model / static / templates로 나누어 구성 
+# index.html에서 데이터 입력부분은 form 태그로 POST 방식으로 데이터 전송
+# server.py: 플라스크(Flask)를 이용해 웹서버 연동 (port:5000)
+```
+
+
