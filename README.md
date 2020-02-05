@@ -1,7 +1,7 @@
 # ***Price_Change_Prediction:chart_with_upwards_trend:***
 ***This project is to develop predict carrot price software for use in linear regression.***
 
-## ***0.Team member***
+## ***0. Team member***
 
 > Contributors/People
 
@@ -13,23 +13,23 @@
 - You can see team member and github profile
 - You should probably find team member's lastest project
 
-## ***1.Development Environment***
+## ***1. Development Environment***
 * ***OS : Windows 10***
 * ***IDE : Pycharm***
 * ***Language : Python 3.6***
 
-## ***2.Structure drawing***
+## ***2. Structure drawing***
 ![bluePrint](./SampleImages/bluePrint.png) 
 
-## ***3.Demo Web Site***
+## ***3. Demo Web Site***
 http://18.221.85.158:5000/ 
 <br>
 ![pic1](./SampleImages/pic1.JPG) 
 
-## ***4.Price prediction result***
+## ***4. Price prediction result***
 ![pic2](./SampleImages/result.JPG) 
 
-## ***5.Run Server***
+## ***5. Run Server***
 ```
 # 깃 허브에서 소스코드를 다운로드 받습니다.
 https://github.com/pym7857/pricePrediction.git
@@ -44,7 +44,7 @@ cd "Flask Web Server"
 python server.py
 ```
 
-## ***6.Make tensorflow learing data model***
+## ***6. Make tensorflow learing data model***
 ```
 # 프로젝트 폴더에서 파이썬 폴더로 이동합니다.
 cd "Python Code"
@@ -63,10 +63,10 @@ python "user_input.py"
 # 이후에 생성된 모델 파일을 웹 서버의 model 폴더에 붙여넣기 하면 적용됩니다.
 ```
 
-## ***7.Crawling & Pearson correlation coefficient***
+## ***7. Data Crawling & Pearson correlation coefficient***
 
 
-## ***8.AWS EC2 hosting***
+## ***8. AWS EC2 hosting***
 ```
 # 1. EC2 인스턴스 생성, 키 획득
 # 2. 제공받은 키를 이용하여 SSH 명령어를 사용해 접속
@@ -75,7 +75,7 @@ python "user_input.py"
 # 5. 인스턴스에서 제공하는 public IP/DNS를 통해 접속 가능 
 ```
 
-## ***9.Develop Note***
+## ***9. Develop Note***
 ```
 # offline_save.py: 다변인 선형회귀 모델 개발 & 데이터 저장 (model 폴더에 저장)
 # user_input.py: 데이터 불러오기 & 사용자 입력
