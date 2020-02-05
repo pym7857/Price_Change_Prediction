@@ -65,16 +65,16 @@ python "user_input.py"
 
 ## ***7. Data Crawling & Pearson correlation coefficient***
 ![crwal_code](./SampleImages/crwal_code.PNG)
-<br>
+<br><br>
 First, make web crawl code about dates of selling carrot data and prices data of more than 20years (https://www.kamis.or.kr/customer/main/main.do)
 Because in the kamis web site, we can't download more than 100 data at one time. 
 
 After get about 7000 data with crawling, we apply Pearson correlation coefficient in order to know what variable do more affect price.
 Below picture represents our Pearson correlation coefficient applying.
-<br>
+<br><br>
 ![pearson](./SampleImages/pearson.jpg)
 ![pearson_table](./SampleImages/pearson_table.png)
-<br>
+<br><br>
 After finishing that work, we sholud got crawling data on National Weather Service. There, we got the weather data which only we want. Finally, We could get learning_data approximately data of 7000.
 
 
