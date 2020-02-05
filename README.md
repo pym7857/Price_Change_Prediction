@@ -80,7 +80,7 @@ After finishing that work, we sholud got crawling data on National Weather Servi
 ![7610_data](./SampleImages/7610_data.PNG)
 
 ## ***8. Multi-variable Linear Regression & Flask Server***
-First, we made offline_code in order to save time when running predict_model. If we save learned model in local, we can get predict_result faster later time.
+Second, we made offline_code in order to save time when running predict_model. If we save learned model in local, we can get predict_result faster later time.
 <br><br>
 ![offline_code](./SampleImages/offline_code.PNG)
 <br><br>
