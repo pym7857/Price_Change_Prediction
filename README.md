@@ -84,7 +84,7 @@ Second, we made offline_code in order to save time when running predict_model. I
 <br><br>
 ![offline_code](./SampleImages/offline_code.PNG)
 <br><br>
-Second, at Server.py, we could run saved_model. 
+Third, at Server.py, we could run saved_model. 
 <br><br>
 ![open_saved](./SampleImages/open_saved.PNG)
 <br><br>
