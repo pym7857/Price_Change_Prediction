@@ -44,7 +44,7 @@ cd "Flask Web Server"
 python server.py
 ```
 
-## ***6. Make tensorflow learing data model***
+## ***6. Make tensorflow learning data model***
 ```
 # 프로젝트 폴더에서 파이썬 폴더로 이동합니다.
 cd "Python Code"
@@ -66,7 +66,7 @@ python "user_input.py"
 ## ***7. Data Crawling & Pearson correlation coefficient***
 ![crwal_code](./SampleImages/crwal_code.PNG)
 <br><br>
-First, we made web crawl code about dates of selling carrot data and prices data of more than 20years (https://www.kamis.or.kr/customer/main/main.do)
+First, we made web crawling code about dates of selling carrot data and prices data of more than 20years (https://www.kamis.or.kr/customer/main/main.do)
 Because in the kamis web site, we can't download more than 100 data at one time. 
 
 After get about 7000 data with crawling, we apply Pearson correlation coefficient in order to know what variable do more affect price.
@@ -75,7 +75,7 @@ Below picture represents our Pearson correlation coefficient applying.
 ![pearson](./SampleImages/pearson.jpg)
 ![pearson_table](./SampleImages/pearson_table.png)
 <br><br>
-After finishing that work, we sholud got crawling data on National Weather Service. There, we got the weather data which only we want. Finally, We could get learning_data approximately data of about 7000.
+After finishing that work, we sholud got crawling data on National Weather Service. There, we got the weather data which only we want. Finally, We could got learning_data approximately data of about 7000.
 <br><br>
 ![7610_data](./SampleImages/7610_data.PNG)
 
