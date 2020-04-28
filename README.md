@@ -1,5 +1,5 @@
 # ***Price_Change_Prediction:chart_with_upwards_trend:*** 
-<br> [![HitCount](http://hits.dwyl.com/pym7857/Price_Change_Prediction.svg)](http://hits.dwyl.com/pym7857/Price_Change_Prediction)
+[![HitCount](http://hits.dwyl.com/pym7857/Price_Change_Prediction.svg)](http://hits.dwyl.com/pym7857/Price_Change_Prediction)
 <br> ***This project is to develop predict carrot price software for use in linear regression.***
 
 ## ***0. Team member***
