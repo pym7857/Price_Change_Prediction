@@ -1,4 +1,4 @@
-# ***Price_Change_Prediction:chart_with_upwards_trend:*** [![HitCount](http://hits.dwyl.com/pym7857/Price_Change_Prediction.svg)](http://hits.dwyl.com/pym7857/Price_Change_Prediction)
+# ***Price_Change_Prediction:chart_with_upwards_trend:*** [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![HitCount](http://hits.dwyl.com/pym7857/Price_Change_Prediction.svg)](http://hits.dwyl.com/pym7857/Price_Change_Prediction)
 <br> ***This project is to develop predict carrot price software for use in linear regression.***
 
 ## ***0. Team member***
