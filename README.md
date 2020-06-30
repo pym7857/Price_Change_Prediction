@@ -91,7 +91,7 @@ Third, at Server.py, we could run saved_model.
 ![tensorflow_pred](./SampleImages/tensorflow_pred.PNG)
 
 ## ***9. LSTM***
-Overfitting 
+.
 
 ## ***10. AWS EC2 hosting***
 ```
